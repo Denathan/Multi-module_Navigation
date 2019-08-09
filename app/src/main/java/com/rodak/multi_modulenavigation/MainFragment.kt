@@ -1,10 +1,13 @@
 package com.rodak.multi_modulenavigation
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.rodak.firstfeature.FeatureActivity
+import kotlinx.android.synthetic.main.fragment_main.featureButton
 
 class MainFragment : Fragment() {
 
@@ -13,4 +16,16 @@ class MainFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = inflater.inflate(R.layout.fragment_main, container, false)
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setUpClickListener()
+    }
+
+    private fun setUpClickListener() {
+        featureButton.setOnClickListener {
+            val intent = Intent(activity, FeatureActivity::class.java)
+            startActivity(intent)
+        }
+    }
 }

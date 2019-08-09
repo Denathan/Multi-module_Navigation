@@ -25,6 +25,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':firstFeature')
     implementation Dependencies.kotlin_stdlib
     implementation Dependencies.androidx_appcompat
     implementation Dependencies.androidx_core_ktx

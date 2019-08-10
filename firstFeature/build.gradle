@@ -1,1 +1,5 @@
 apply from: "$rootProject.projectDir/shared-deps.gradle"
+
+dependencies {
+    implementation project(':util')
+}

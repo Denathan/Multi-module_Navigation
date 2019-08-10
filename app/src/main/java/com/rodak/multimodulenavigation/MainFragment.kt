@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.rodak.firstfeature.FeatureActivity
+import com.rodak.utlis.constans.USERNAME_EXTRAS
 import kotlinx.android.synthetic.main.fragment_main.featureButton
+import kotlinx.android.synthetic.main.fragment_main.username
 
 class MainFragment : Fragment() {
 
@@ -25,7 +27,10 @@ class MainFragment : Fragment() {
     private fun setUpClickListener() {
         featureButton.setOnClickListener {
             val intent = Intent(activity, FeatureActivity::class.java)
+            intent.putExtra(USERNAME_EXTRAS, getUsername())
             startActivity(intent)
         }
     }
+
+    private fun getUsername() = username.text.toString()
 }

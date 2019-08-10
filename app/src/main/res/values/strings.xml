@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Multi-module Navigation</string>
+    <string name="feature_button">Feature</string>
+    <string name="username_hint">Username</string>
 </resources>

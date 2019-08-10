@@ -1,2 +1,2 @@
-include ':app', ':buildSrc', ':firstFeature'
+include ':app', ':buildSrc', ':firstFeature', ':utils', ':util'
 rootProject.name='Multi-module Navigation'

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "755826579697",
+    "firebase_url": "https://multimodulenavigation.firebaseio.com",
+    "project_id": "multimodulenavigation",
+    "storage_bucket": "multimodulenavigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755826579697:android:f247702930713041",
+        "android_client_info": {
+          "package_name": "com.rodak.multi_modulenavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755826579697-qeg27lttp2962vsncec0886aovhbd8s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMgzqWdA1DT0lkzmoXTZerPVRp2B3r1ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755826579697-qeg27lttp2962vsncec0886aovhbd8s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

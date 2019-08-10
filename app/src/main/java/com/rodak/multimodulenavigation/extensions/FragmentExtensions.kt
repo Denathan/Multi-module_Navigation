@@ -1,4 +1,4 @@
-package com.rodak.multi_modulenavigation.extensions
+package com.rodak.multimodulenavigation.extensions
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

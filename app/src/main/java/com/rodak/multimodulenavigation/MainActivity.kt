@@ -1,8 +1,8 @@
-package com.rodak.multi_modulenavigation
+package com.rodak.multimodulenavigation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.rodak.multi_modulenavigation.extensions.display
+import com.rodak.multimodulenavigation.extensions.display
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,14 +1,12 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: '../config/ktlintConfig.gradle'
-
 
 android {
     compileSdkVersion Versions.compile_sdk_version
     buildToolsVersion Versions.build_tools_version
     defaultConfig {
-        applicationId "com.rodak.multi_modulenavigation"
         minSdkVersion Versions.min_sdk_version
         targetSdkVersion Versions.target_sdk_version
         versionCode 1
@@ -25,7 +23,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':firstFeature')
     implementation Dependencies.kotlin_stdlib
     implementation Dependencies.androidx_appcompat
     implementation Dependencies.androidx_core_ktx

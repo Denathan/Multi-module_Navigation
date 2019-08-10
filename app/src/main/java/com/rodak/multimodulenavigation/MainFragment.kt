@@ -1,4 +1,4 @@
-package com.rodak.multi_modulenavigation
+package com.rodak.multimodulenavigation
 
 import android.content.Intent
 import android.os.Bundle

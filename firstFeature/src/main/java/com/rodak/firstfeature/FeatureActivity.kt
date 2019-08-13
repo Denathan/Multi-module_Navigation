@@ -16,6 +16,6 @@ class FeatureActivity : AppCompatActivity() {
 
     private fun getUserIntent(): String {
         val intent = intent.extras
-        return intent?.getString(USERNAME_EXTRAS) ?: ""
+        return intent?.getString(USERNAME_EXTRAS) ?: "xD"
     }
 }

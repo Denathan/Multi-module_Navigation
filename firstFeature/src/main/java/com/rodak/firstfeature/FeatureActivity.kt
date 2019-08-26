@@ -2,8 +2,7 @@ package com.rodak.firstfeature
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.rodak.utlis.constans.USERNAME_EXTRAS
-import kotlinx.android.synthetic.main.activity_feature.textField
+import com.rodak.util.extensions.display
 
 class FeatureActivity : AppCompatActivity() {
 
@@ -11,11 +10,6 @@ class FeatureActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_feature)
 
-        if (getUserIntent().isNotEmpty()) textField.text = getUserIntent()
-    }
-
-    private fun getUserIntent(): String {
-        val intent = intent.extras
-        return intent?.getString(USERNAME_EXTRAS) ?: ""
+        FeatureFragment().display(supportFragmentManager, R.id.fragmentContainer, "TAG")
     }
 }

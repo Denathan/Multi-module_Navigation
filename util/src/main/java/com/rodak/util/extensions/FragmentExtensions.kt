@@ -1,4 +1,4 @@
-package com.rodak.utlis.extensions
+package com.rodak.util.extensions
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

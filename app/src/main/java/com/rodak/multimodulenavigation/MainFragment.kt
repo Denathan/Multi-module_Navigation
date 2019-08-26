@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.rodak.firstfeature.FeatureActivity
-import com.rodak.utlis.constans.USERNAME_EXTRAS
+import com.rodak.util.constans.USERNAME_EXTRAS
 import kotlinx.android.synthetic.main.fragment_main.featureButton
 import kotlinx.android.synthetic.main.fragment_main.username
 

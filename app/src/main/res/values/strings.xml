@@ -2,4 +2,5 @@
     <string name="app_name">Multi-module Navigation</string>
     <string name="feature_button">Feature</string>
     <string name="username_hint">Username</string>
+    <string name="successfully_logged_out">You\'ve been successfully logged out!</string>
 </resources>
